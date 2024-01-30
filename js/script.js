@@ -22,7 +22,7 @@ function newcred(){
 }
 
 function checkcred(){
-	if((localStorage.getItem('uname') === uid.value || localStorage.getItem('tel') === uid.value) && localStorage.getItem('pwd') === pwd.value){
+	if((localStorage.getItem('email') === uid.value || localStorage.getItem('tel') === uid.value) && localStorage.getItem('pwd') === pwd.value){
 		ltext.innerText = ''
 		uid.setCustomValidity('')
 		pwd.setCustomValidity('')
