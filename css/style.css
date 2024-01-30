@@ -1,0 +1,14 @@
+@import url("bootstrap.min.css");
+
+:root {
+	--bs-link-color-rgb: 112,128,144;
+	--bs-link-hover-color-rgb: 255,255,255;
+	--bs-body-bg: #121212;
+	--bs-body-color: #EEF3F9;
+	--bs-body-color-rgb: 76,77,79;
+	--bs-font-sans-serif: 'Fira Code', monospace
+}
+
+::placeholder {
+	color: #8C8389 !important
+}

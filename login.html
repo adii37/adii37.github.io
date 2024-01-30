@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login to vague</title>
+	<link href="/form/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-3">
+	<h3>Login to vague</h3>
+	<p>Enter your credentials.</p>
+	<form class="was-validated" action="/form/home.html" onsubmit="checkcred()">
+		<div class="mb-3 mt-3">
+			<label for="uname" class="form-label">Enter your username/phone number</label>
+			<input type="text" class="form-control" id="uid" placeholder="John Doe (or) +123456789000" name="uname" required>
+		</div>
+		<div class="mb-3">
+			<label for="pwd" class="form-label">Enter your password.</label>
+			<input type="password" class="form-control" id="pwd" placeholder="C0ol_p@55w0rD" name="pwd" required>
+			<div class="invalid-feedback" id="ltext"></div>
+		</div>
+		<div class="form-check mb-3">
+			<label class="form-check-label" for="toc">Keep me logged in</a></label>
+			<input class="form-check-input" type="checkbox" id="toc" name="toc">
+		</div>
+	<button type="submit" onclick="checkcred()" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+<script src="/form/js/script.js"></script>
+</body>
+</html>
